@@ -144,7 +144,7 @@ body {
 /* Welcome Row CSS */
 
 .welcome-row-pic-index {
-    background-image: url("../img/Jazz Background Two.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Jazz Background Two.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;

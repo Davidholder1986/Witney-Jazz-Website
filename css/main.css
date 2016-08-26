@@ -101,6 +101,7 @@ body {
           padding-top: 50px;
           position: relative;
           font-family: 'Lato', sans-serif;
+          color: #fff;
       }
       
       pre {
@@ -124,12 +125,12 @@ body {
 /*  Logo CSS */
 
 .logo-jazz {
-    font-family: 'Yellowtail', cursive;
-    font-size: 52px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
 }
 
 .logo-witney {
-    font-size: 52px;
+    font-size: 70px;
 }
 
 
@@ -137,14 +138,14 @@ body {
 
 .band-img {
     width: 250px;
-    height: 200px;
+    height: 250px;
 
 }
 
 /* Welcome Row CSS */
 
 .welcome-row-pic-index {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Jazz Background Two.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Jazz Background Two.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -167,17 +168,19 @@ body {
 /* Grid CSS */
 
 .grid-background {
-    background-image: url("../img/Jazz Background Five.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../img/Jazz Background Seven.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: auto;
+    height: auto;
 }
 
 .small-webpage-fit {
-    height: 1000px;
+    height: 1100px;
 }
 
 .coming-soon {
@@ -187,30 +190,55 @@ body {
     padding-bottom: 20px;
 }
 
+.price {
+    font-size: 18px;
+    text-align: center; 
+    font-weight: bold;
+}
+
 .grid-row {
     padding: 50px; 
 }
 
 .thumbnail-custom {
-    width: 300px;
-    height: 450px;
+    min-width: 300px;
+    min-height: 600px;
+
 }
 
 .band-name {
     text-align: center;
-
 }
 
 .band-details {
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .band-button-wrap {
-    text-align: center;
+    position: absolute;
+    left: 40%;
+    margin-left: -50px;
+    bottom: 30px;
 }
 
+.read-more {
+    min-height: 100%;
+    z-index: 1000;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.filler {
+    width: 100%;
+    height: 1px;
+}
+
+.filler50 {
+    height: 50px;
+    width: 100%;
+}
       
 @media screen and (max-width: 768px) {
   .side-collapse-container{
@@ -236,13 +264,84 @@ body {
   }
 }
 
+/*  Link Footer CSS */
+
+.links-bottom {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.border {
+    color: #fff;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 0 1px;
+
+}
+
+.link-bottom {
+    color: #fff;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 50%;
+    margin-bottom: 30px;
+}
+
+.link-bottom:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.fixed-bottom-link {
+    bottom: 0;
+    text-align: left;
+    position: fixed;
+}
+
 /* Google Maps CSS */
 
 #map {
     width: 100%;
     height: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
+.venue-pic {
+    border-radius: 50%;
+    width: 100%;
+    margin: 80px auto 0 auto; -webkit-box-reflect:below -1px
+    -webkit-gradient(linear, left top, left bottom, from(transparent),
+    color-stop(87%, transparent) , to(rgba(250, 250, 250, 0.7)));
+    max-width: 500px;
+    float: right;
+}
+
+.about-filler {
+    margin-top: 80px;
+}
+
+.directions-main {
+    font-size: 18px;
+}
+
+.directions {
+    font-size: 16px;
+}
+
+.about{
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+.contact {
+    font-size: 18px;
+}
+
+.bottomfill {
+    margin-bottom: 100px;
+}
 
 
 /* ==========================================================================

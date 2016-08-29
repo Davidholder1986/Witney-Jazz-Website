@@ -145,7 +145,7 @@ body {
 /* Welcome Row CSS */
 
 .welcome-row-pic-index {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Jazz Background Two.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Jazz Background Two.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -162,7 +162,9 @@ body {
 }
 
 .welcome-text {
-    font-size: 20px;
+    margin-top: 8%;
+    font-size: 22px;
+    line-height: 40px;
 }
 
 /* Grid CSS */
@@ -185,7 +187,6 @@ body {
 
 .coming-soon {
     text-align: center;
-    font-family: 'Lobster', cursive;
     font-size: 48px;
     padding-bottom: 20px;
 }
@@ -202,7 +203,7 @@ body {
 
 .thumbnail-custom {
     min-width: 300px;
-    min-height: 600px;
+    min-height: 630px;
 
 }
 
@@ -226,7 +227,7 @@ body {
 .read-more {
     min-height: 100%;
     z-index: 1000;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -339,9 +340,22 @@ body {
     font-size: 18px;
 }
 
+.bottomfill-venue {
+    margin-bottom: 20px;
+}
+
 .bottomfill {
     margin-bottom: 100px;
 }
+
+.about-link {
+    text-decoration: underline;
+}
+
+.about-link:hover {
+    color: white;
+}
+
 
 
 /* ==========================================================================
